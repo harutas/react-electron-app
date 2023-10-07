@@ -101,7 +101,7 @@ function ChatComponent() {
             </div>
 
             <div id="roomInfoArea" className="mt-4">
-                <h2>Room Info</h2>
+                <h2>Room Info!!!!</h2>
                 <div id="currentRoomName">Room Name: {roomName || '部屋に参加していません'}</div>
                 <div id="currentHostName">Host Name: {clients.length > 0 && clients[0].host_name}</div>
                 <h3>Clients:</h3>
